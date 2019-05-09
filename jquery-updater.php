@@ -31,9 +31,9 @@ function rw_jquery_updater()
     // Deregister core jQuery Migrate
     wp_deregister_script('jquery-migrate');
     // Register
-    wp_enqueue_script('jquery-migrate', plugins_url('/js/jquery-migrate-3.0.0.min.js', __FILE__), array(
+    wp_enqueue_script('jquery-migrate', plugins_url('/js/jquery-migrate-3.0.1.min.js', __FILE__), array(
         'jquery'
-    ), '3.0.0'); // require jquery, as loaded above
+    ), '3.0.1'); // require jquery, as loaded above
 }
 
 /**
